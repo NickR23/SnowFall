@@ -14,12 +14,12 @@ public class DrawingComponent extends JPanel implements ActionListener{
 	private static final long serialVersionUID = -7756330398076254264L;
 
 	//Initializes the world timer
-	Timer worldT = new Timer (5,this);
+	private Timer worldT = new Timer (5,this);
 	
 	//Sets the number of RainDrop objects generated
-	int numOfDrops = 1200;
+	private int numOfDrops = 1200;
     //Makes an array of RainDrop objects
-    SnowBall[] Drops = new SnowBall[numOfDrops];
+    private SnowBall[] Drops = new SnowBall[numOfDrops];
 
 
     public void clockStart(){

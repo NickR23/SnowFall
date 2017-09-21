@@ -7,8 +7,8 @@ public class SnowBall{
 	Random randx = new Random();
 	Random randv = new Random();
 	//Sets the location vars for the objects on screen
-	int snowx = randx.nextInt(1600) + 4 , snowy = 0, vely = randv.nextInt(4) + 8;
-	boolean wobble = false;
+	private int snowx = randx.nextInt(1600) + 4 , snowy = 0, vely = randv.nextInt(4) + 8;
+	private boolean wobble = false;
 	
 	 public int getX() {
 		 return snowx;
